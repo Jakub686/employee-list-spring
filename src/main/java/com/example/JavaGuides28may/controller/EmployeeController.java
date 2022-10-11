@@ -28,6 +28,11 @@ public class EmployeeController {
     @Autowired
     private EmployeeRepository employeeRepository;
 
+    @GetMapping("welcome")
+    public String welcome(){
+        return "Welcome";
+    }
+
     // get all employees
     @GetMapping("/employees")
     public List<Employee> getAllEmployees(){

@@ -30,7 +30,7 @@ public class EmployeeController {
 
     @GetMapping("welcome")
     public String welcome(){
-        return "Welcome";
+        return "Welcome !!";
     }
 
     // get all employees
